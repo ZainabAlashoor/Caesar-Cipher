@@ -1,19 +1,3 @@
-''' 
-    Caesar Cipher is one of the oldest encryption techniques, 
-    it was used by Julius Caesar to send messages to his allies.
-'''
-'''
-    How does it work? By replacing letters to a certain number of position. 
-    Both you and the other party should agree on a fixed number(int) of positions to solve the message.
-'''
-'''
-    @note: 
-    upper case letters in ASCII:
-    'A' = 65 to 'Z' = 90
-    lower case letters in ASCII:
-    'a' = 97 to 'z' = 122
-'''
-
 def encrypt(string, position):
     """return a string encrypted"""
     newString = ''
